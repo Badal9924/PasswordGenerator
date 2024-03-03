@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to right bottom,#ffa585,#45c5d8);
+    color: white;
+}
+.passwordgenerator{
+    border: 3px solid white;
+    width: 400px;
+    padding: 6px 20px 6px 20px;
+    border-radius: 6px;
+    box-shadow: 4px 4px 15px 7px rgba(0,0,0,0.5);
+}
+#screen{
+    font-size: 23px;
+    padding: 8px;
+    width: 95%;
+    border-radius: 7px;
+    background-color: white;
+    text-overflow: ellipsis;
+}
+#r{
+    width: 100%;
+    margin-top: 9px;
+    margin-bottom: 4px;
+}
+.passwordlength,.lowercase,.uppercase,.symbols,.numbers{
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 13px;
+}
+input[type="checkbox"]{
+    height: 21px;
+    width: 21px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 0px 8px 0px;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 7px 9px 7px 9px;
+    cursor: pointer;
+    font-size: 23px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.maincard{
+    margin-top: 5px;
+}
+.input{
+    position: relative;
+}
+#copy{
+    color: black;
+    position: absolute;
+    top: 14px;
+    right: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 2;
+}
